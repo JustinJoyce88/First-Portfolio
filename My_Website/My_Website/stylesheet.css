@@ -1,0 +1,147 @@
+body{
+	background-color: #333333;
+}
+
+p{
+	font-size: 13px;
+	font-family: Helvetica, sans-serif;
+}
+
+ul.navul{
+	width: 100%;
+	height: 100%;
+	margin-left: -36px;
+	margin-top: 0px;
+	font-family: Helvetica, sans-serif;
+}
+
+ul.bloglist{
+	font-size: 13px;
+	font-family: Helvetica, sans-serif;
+}
+
+#footertable{
+	width: 100%;
+}
+
+#footertdright{
+	width: 50%;
+	text-align: right;
+}
+
+#blogbox{
+	overflow: auto;
+	width: 100%;
+	height: 89%
+}
+
+#bodydiv{
+	position: relative;
+	height: 825px; 
+	width: 800px;
+	border-radius: 3px;
+	margin-top: 20px;
+	left:50%;
+	margin-left:-400px; 
+	background-color: #303030;
+}
+
+#divcontent{
+	text-align: left;
+	margin: 10% 0px 0px 72px;
+	position: absolute;
+	height: 89%; 
+	width: 80%;
+	border-radius: 3px;
+	background-color: #CCCCCC;	
+}
+
+#footer{
+	text-align: left;
+	position: absolute;
+	height: 30px; 
+	width: 761px;
+	border-radius: 3px;
+	margin-left: 19px;
+	background-color: #909090;
+}
+
+#head_mid_table{
+	z-index:1;
+	width: 100%;
+	background-color: #909090;
+	position: absolute;
+	border-radius: 3px;
+}
+
+#inbody{
+	position: relative;
+	height: 95%; 
+	width: 95%;
+	border-radius: 3px;
+	background-color: #666666;	
+}
+
+li.navbarlist {
+	display: inline;
+	font-size: 22px;
+	text-align: center;
+	border-radius: 3px;
+	padding: 5px;
+	margin-left: 3px;
+	background-color: #303030;
+}
+
+#navBar{
+	z-index:3;
+	position: fixed;
+	border-radius: 3px;
+	height: 40px;
+	width: 375px;
+	margin-top: -25px;
+	left: 50%;
+	margin-left: -185.5px;
+	background-color: #666666;
+	border: 1px solid #333333;
+}
+
+a.nav:link{
+	text-decoration: none;
+	color: #CCCCCC;
+}
+a.nav:visited{
+	color: #99CCCC;
+}
+a.nav:hover{
+	color: #FFFFFF ;
+}
+
+div.artimg{
+	margin: 5px;
+	border: 0px solid #000000;
+	height: auto;
+	width: auto;
+	float: left;
+	text-align: center;
+}	
+
+div.artimg img{
+	display: inline;
+	margin: 3px;
+	border: 1px solid #ffffff;
+}
+
+div.artimg a:hover img{
+	border: 1px solid #000000;
+}
+
+div.desc{
+	text-align: center;
+	font-weight: normal;
+	width: 120px;
+	margin: 2px;
+}
+
+.headerimages{
+	border-radius: 3px;
+}
